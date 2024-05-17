@@ -15,7 +15,7 @@ Link Programa:</br>-> https://github.com/gmailpontocom/FeiProjetoDB/blob/main/Py
 <br/>
 
 <h3>Pasta SQL</h3>
-<h4>Aqui você vai encontrar todos os DDL's e DML's a serem utilizados para configurar a estrutura do nosso banco! Links:</h4>
+<h4>Aqui você vai encontrar todos os DDL's e DML's a serem utilizados para configurar a estrutura do nosso banco!</h4>
 DDL (Criar Tabelas):</br>
 -> https://github.com/gmailpontocom/FeiProjetoDB/blob/main/SQL/CreateTableStatements.sql</br>
 DML (Inserir Dados):</br>
