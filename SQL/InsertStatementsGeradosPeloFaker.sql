@@ -1,4 +1,4 @@
--- Departamento
+--- Departamento pos mudanca
 INSERT INTO Departamento (nome_dept, Orcamento, Predio, chefe_ra) VALUES ('Computacao', 50000, 'Predio K', NULL);
 INSERT INTO Departamento (nome_dept, Orcamento, Predio, chefe_ra) VALUES ('Engenharia', 30000, 'Predio J', NULL);
 INSERT INTO Departamento (nome_dept, Orcamento, Predio, chefe_ra) VALUES ('Matematica', 40000, 'Predio I', NULL);
@@ -29,7 +29,7 @@ INSERT INTO Professor (RA, CPF, Nome, Email, Salario, nome_dept) VALUES ('RA022'
 INSERT INTO Professor (RA, CPF, Nome, Email, Salario, nome_dept) VALUES ('RA023', '940.126.857-67', 'Benicio Sousa', 'bsousa@fei.com', 9027, 'Engenharia');
 INSERT INTO Professor (RA, CPF, Nome, Email, Salario, nome_dept) VALUES ('RA024', '547.910.863-84', 'Sr. Thiago Martins', 'sthiago@fei.com', 7650, 'Engenharia');
 INSERT INTO Professor (RA, CPF, Nome, Email, Salario, nome_dept) VALUES ('RA025', '813.274.905-79', 'Jade Lima', 'jlima@fei.com', 10065, 'Engenharia');
---depois que houverem professores, podemos referenciar alguns deles como chefe de departamento
+--depois que houverem professores, podemos referenciar um deles como chefe de departamento
 UPDATE Departamento SET chefe_ra = 'RA003' WHERE nome_dept = 'Computacao';
 UPDATE Departamento SET chefe_ra = 'RA025' WHERE nome_dept = 'Engenharia';
 UPDATE Departamento SET chefe_ra = 'RA022' WHERE nome_dept = 'Matematica';
@@ -432,7 +432,7 @@ INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A007
 INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0078', 'M1008', '2024-1', 2024, 3.7, 'Reprovado');
 INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0078', 'M1015', '2023-1', 2023, 0.2, 'Reprovado');
 INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0079', 'M1004', '2024-2', 2024, 5.5, 'Aprovado');
-INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0079', 'M1014', '2024-1', 2024, 8.5, 'Aprovado');
+INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0079', 'M1014', '2024-2', 2024, 8.5, 'Aprovado');
 INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0079', 'M1002', '2024-2', 2024, 6.0, 'Aprovado');
 INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0080', 'M1003', '2023-2', 2023, NULL, 'Cursando');
 INSERT INTO Cursando (RA, materia_id, Semestre, Ano, Nota, status) VALUES ('A0080', 'M1008', '2024-1', 2024, NULL, 'Cursando');
@@ -607,3 +607,4 @@ INSERT INTO Orientador (aluno_ra, prof_ra, grupo_id) VALUES ('A0033', 'RA004', '
 INSERT INTO Orientador (aluno_ra, prof_ra, grupo_id) VALUES ('A0058', 'RA004', 'G024');
 INSERT INTO Orientador (aluno_ra, prof_ra, grupo_id) VALUES ('A0097', 'RA004', 'G024');
 INSERT INTO Orientador (aluno_ra, prof_ra, grupo_id) VALUES ('A0068', 'RA017', 'G025');
+COMMIT;
