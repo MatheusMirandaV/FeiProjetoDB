@@ -16,7 +16,7 @@ Bruna Paz, RA: 22121020-6</b><br/>
 
 <h3>Pasta SQL</h3>
 <h4>Aqui você vai encontrar todos os DDL's e DML's a serem utilizados para configurar a estrutura do nosso banco!</h4>
-<a href="https://github.com/gmailpontocom/FeiProjetoDB/blob/main/SQL/CreateTableStatements.sql</br>">DDL (Criar Tabelas)</a></br>
+<a href="https://github.com/gmailpontocom/FeiProjetoDB/blob/main/SQL/CreateTableStatements.sql">DDL (Criar Tabelas)</a></br>
 <a href="https://github.com/gmailpontocom/FeiProjetoDB/blob/main/SQL/InsertStatementsGeradosPeloFaker.sql">DML (Inserir Dados)</a></br>
 <a href="https://github.com/gmailpontocom/FeiProjetoDB/blob/main/SQL/InsertStatementsGeradosPeloFaker.sql">DML (Selecionar Dados - Relatórios 1 ao 5)</a></br>
 
