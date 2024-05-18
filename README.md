@@ -12,7 +12,7 @@ Bruna Paz, RA: 22121020-6</b><br/>
 <h3>Pasta PythonFaker</h3>
 <h4>Aqui você vai encontrar o programa em Python utilizado para gerar os dados e insert statements a serem inseridos no banco!</h4>
 <a href="https://github.com/gmailpontocom/FeiProjetoDB/blob/main/PythonFaker/main.py">Link Programa</a></br>
-<br/>
+
 
 <h3>Pasta SQL</h3>
 <h4>Aqui você vai encontrar todos os DDL's e DML's a serem utilizados para configurar a estrutura do nosso banco!</h4>
