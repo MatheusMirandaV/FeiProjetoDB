@@ -39,6 +39,7 @@ left join materia m on l.materia_id = m.materia_id
 where 1=1
     --caso nulo, todos os professores serão incluídos no resultado da query
     and (:ra_professor is null or p.ra = :ra_professor)
+    and l.materia_id is not null
 order by p.ra asc
 ;
 
