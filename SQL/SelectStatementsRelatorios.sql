@@ -44,15 +44,19 @@ order by p.ra asc
 ;
 
 --Projeto relatorio 3
-select 
+select distinct
     a.ra
     ,a.nome
     ,a.email
     ,a.curso_id
     ,c.nome_curso
+    ,c2.semestre
+    ,c2.ano
+    ,'Formado!' as Status
 from 
     aluno a
 join curso c on a.curso_id = c.curso_id
+join cursando c2 on a.ra = c2.ra
 where 1=1
     --subquery pra ver se foi aprovado nas materias do seu curso
     and not exists (
@@ -78,7 +82,11 @@ where 1=1
             and c.ra = a.ra 
             and c.semestre = :semestre
             and c.ano = :ano         
-    );
+    )
+    --garante que o semestre e ano sejam os desejados
+    and c2.semestre = :semestre
+    and c2.ano = :ano
+    ;
 
 --Projeto relatorio 4
 select
