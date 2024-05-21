@@ -41,7 +41,7 @@
 <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/SelectStatementsRelatorios.sql">DML (Selecionar Dados - Relatórios 1 ao 5)</a></br>
 
 
-<h1>🚀 O que rodar, e em que ordem rodar? Passo A Passo 🚀</h1>
+<h1>🚀 O que rodar, e em que ordem? 🚀</h1>
 <h3>1.Rode o DDL para criar as tabelas!</h3>
 <h3>2.Rode o DML contendo os inserts para popular as tabelas OU rode o programa em python para gerar um novo DML com dados inéditos!</h3>
 <h3>3.Abra o DML contendo os selects, e rode uma das cinco queries de cada vez para validar os relatórios exigidos do projeto!</h3>
