@@ -17,7 +17,7 @@
     <td>22121020-6</td>
   </tr>
 </table>
-<h2>😅 Disclaimer 😅</h2>
+<h1>😅 Disclaimer 😅</h1>
 <p>Neste projeto, foi-nos dada completa autonomia e liberdade para escolhermos as tecnologias a serem utilizadas. Optamos por utilizar o Oracle Autonomous Transaction Processing (ATP) como banco de dados. O Oracle ATP é um serviço de banco de dados totalmente automatizado, otimizado para executar cargas de trabalho transacionais, analíticas e em lote de forma simultânea.</p>
 <p>Conforme as práticas recomendadas pela Oracle, adotamos tipagens específicas recomendadas pela plataforma. Por exemplo, utilizamos o tipo de dado <code>VARCHAR2</code>, que é específico dos bancos de dados Oracle, ao invés de <code>VARCHAR</code> para armazenamento de strings. Estas escolhas foram feitas para garantir a melhor performance e compatibilidade com as funcionalidades oferecidas pelo Oracle ATP.</p>
 <p>Se você estiver utilizando uma plataforma de banco de dados diferente, pode ser necessário adaptar os tipos de dados e algumas configurações específicas para garantir o correto funcionamento do sistema.</p>
