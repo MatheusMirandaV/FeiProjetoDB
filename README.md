@@ -42,12 +42,15 @@
 
 
 <h1>🚀 O que rodar, e em que ordem? 🚀</h1>
-<h3>1.Rode o <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/CreateTableStatements.sql">DDL</a> para criar as tabelas!</h3>
-<h3>2.Rode o <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/InsertStatementsGeradosPeloFaker.sql">DML</a> contendo os inserts para popular as tabelas OU rode o programa em python para gerar um novo DML com dados inéditos!</h3>
-<h3>3.Abra o <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/SelectStatementsRelatorios.sql">DML</a> contendo os selects, e rode uma das cinco queries de cada vez para validar os relatórios exigidos do projeto!</h3>
+<h3>1.Faça o download do arquivo "main.py" localizado <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/PythonFaker/main.py">aqui</a> e transfira/copie ele para uma pasta de sua preferência.</h3>
+<h3>2.Uma vez que o python e a biblioteca faker estejam instalados na máquina (pip install Faker), execute o programa!</h3>
+<h3>3.Caso tudo tenha dado certo, um arquivo com nome "inserts.sql" terá sido gerado na mesma pasta que você executou o programa, este arquivo conterá todos os inserts statements com os os dados gerados aleatoriamente pelo Faker!</h3>
+<h3>4.Conecte ao seu banco, abra uma planilha sql, e rode o <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/CreateTableStatements.sql">DDL</a> para criar as tabelas!</h3>
+<h3>5.Em seguida rode o <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/InsertStatementsGeradosPeloFaker.sql">DML</a> (Este DML também foi gerado pelo programa main.py) contendo os inserts para popular as tabelas OU rode o programa em python para gerar um novo DML com dados inéditos!</h3>
+<h3>6.Abra o <a href="https://github.com/MatheusMirandaV/FeiProjetoDB/blob/main/SQL/SelectStatementsRelatorios.sql">DML</a> contendo os selects, e rode uma das cinco queries de cada vez para validar os relatórios exigidos do projeto!</h3>
 
 <h1>🎁 <a href="https://g4c1251c39e489c-vglhdecafwou8ljv.adb.sa-saopaulo-1.oraclecloudapps.com/ords/r/apexworkspace/projeto-banco-de-dados/login?session=2412824137589">EXTRA</a> 🎁</h1>
-<h3>Caro professor, acredito que esse foi o projeto mais divertido que já fiz na FEI até o momento, e pra extender um pouco a diversão, desenvolvemos um extra com um pouco do tempo que sobrou.</h3>
+<h3>Caro professor, acredito que esse foi o projeto mais divertido que já fiz na FEI até o momento, e para extender um pouco a diversão, desenvolvemos um extra com um pouco do tempo que sobrou.</h3>
 <h3>Caso tenha interesse, por favor acesse <a href="https://g4c1251c39e489c-vglhdecafwou8ljv.adb.sa-saopaulo-1.oraclecloudapps.com/ords/r/apexworkspace/projeto-banco-de-dados/login?session=2412824137589">este link</a> e utilize as credenciais abaixo para logar 😊</h3>
 <table>
   <tr>
